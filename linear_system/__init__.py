@@ -1,1 +1,2 @@
-from .jacobi import *
+from .jacobi import jacobi
+from .seidel import seidel
