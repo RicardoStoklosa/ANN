@@ -14,4 +14,4 @@ def seidel(a: [[float]], b: [float], guess: [float], n: int = 7):
 
     for _ in range(n):
         guess = dot(D_L_, (dot(U, guess) + b))
-    print(guess)
+        print(guess)
